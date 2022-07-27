@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["my_module.ts", "example.ts"],
+  "sourcesContent": ["export class MyModule {\r\n    prop: string\r\n    constructor(prop:string) {\r\n        this.prop = prop\r\n    }\r\n}", "import {MyModule} from \"./my_module.ts\";\r\n\r\nlet x: string | number = \"hello\"\r\nx += 15\r\nconsole.log(x)\r\nlet y = new MyModule(\"hi\")\r\nlet not_used = 15\r\nlet not_used_class_instance = new MyModule(\"hi\")\r\nconsole.log(y)\r\n"],
+  "mappings": ";;AAAO,MAAM,WAAN,MAAe;AAAA,IAElB,YAAY,MAAa;AACrB,WAAK,OAAO;AAAA,IAChB;AAAA,EACJ;;;ACHA,MAAI,IAAqB;AACzB,OAAK;AACL,UAAQ,IAAI,CAAC;AACb,MAAI,IAAI,IAAI,SAAS,IAAI;AAEzB,MAAI,0BAA0B,IAAI,SAAS,IAAI;AAC/C,UAAQ,IAAI,CAAC;",
+  "names": []
+}
